@@ -12,6 +12,7 @@
     <!-- Style Sheet -->
     <link href="css-eigen/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie Flower">
 
 
   </head>
@@ -139,11 +140,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
+          <h2>Über diese Seite</h2>
         </div>
       </div>
           <div class="row">
-            <div class="col-lg-3 mx-auto">
+            <div class="col-lg-3 col-md-4 col-sm-6 mx-auto">
               <div class="card" style="width: 15rem;">
                 <img src="images/cardimg1.jpg" class="card-img-top" alt="https://amp.express.de/image/32624598/max/1920/1080/ec3981eb5173fc2b942378ac803494af/ZV/katzencaf%C3%A9.jpg">
                 <div class="card-body">
@@ -159,7 +160,7 @@
                 </div>
               </div>  
             </div>
-            <div class="col-lg-3 mx-auto">
+            <div class="col-lg-3 col-md-4 mx-auto d-none d-md-block">
               <div class="card" style="width: 15rem;">
                 <img src="images/cardimg2.jpg" class="card-img-top" alt="https://static1.squarespace.com/static/5ae6184c4eddec0ecc36c48b/5ae61ac270a6adc5612ed3b5/5c34b3154ae2379d43447630/1551721592295/Screen+Shot+2019-01-08+at+14.24.21.png?format=1500w">
                 <div class="card-body">
@@ -175,7 +176,7 @@
                 </div>
               </div>  
             </div>
-            <div class="col-lg-3 mx-auto">
+            <div class="col-lg-3 col-md-4 col-sm-6 mx-auto">
               <div class="card" style="width: 15rem;">
                 <img src="images/cardimg3.jpg" class="card-img-top" alt="https://catingtonpost.com/wp-content/uploads/2014/02/187222612-500x333.jpg">
                 <div class="card-body">
@@ -207,7 +208,7 @@
                 </div>
               </div>  
             </div>
-            <div class="col-lg-3 mx-auto">
+            <div class="col-lg-3 mx-auto d-none d-lg-block">
               <div class="card" style="width: 15rem;">
                 <img src="images/cardimg4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -233,24 +234,54 @@
     </div>
   </section>
 <!-- about section-->
-  <section id="location" class="bg-light">
+<!-- location section-->
+  <section id="location">
+    <div class="row center green" id="locationBar">
+      <div class="col-3 mx-auto">
+        <b>Standorte</b>
+        <p>10</p>
+      </div>
+      <div class="col-3 mx-auto">
+        <b>Cafes</b>
+        <p>60</p>
+      </div>
+      <div class="col-3 mx-auto">
+        <b>Mitarbeiter</b>
+        <p>340</p>
+      </div>
+      <div class="col-3 mx-auto">
+        <b>Katzen</b>
+        <p>412</p>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">TEST GOOGLE MAPS</p>
-
-		<!--Google map-->
+          <h2>Standort <svg class="bi bi-geo-alt" width="1em" height="1em" viewBox="0 0 16 16" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10zm0-7a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
+          </svg></h2>
+          <p class="lead"><b>Hier finden Sie den Standort unseres neusten Katzen Cafes in München</p>
+        </div>
+      </div>
+    </div>
+      <div class="row" id="backgroundMaps">
+        <div class="col-lg-2 mx-auto" id="bannerLinks">
+         <!-- <img src="images/banner2.jpg" alt="https://images.otstatic.com/prod/25104884/1/huge.jpg"> -->
+        </div>
+        <div class="col-lg-8 mx-auto" id="maps">
+    <!--Google map-->
 		<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
   		  <iframe src="https://maps.google.com/maps?q=Cat Cafe Munich, Türkenstraße, München&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
 	 	</div>
 		<!--Google Maps-->
-
+        </div>
+      <div class="col-lg-2 mx-auto" id="bannerRechts">
+        <!-- <img src="images/banner3.jpg" alt="https://images.otstatic.com/prod/25104884/1/huge.jpg"> -->
         </div>
       </div>
     </div>
   </section>
-
+<!-- location section-->
   <section id="menu">
     <div class="container">
       <div class="row">
@@ -259,7 +290,6 @@
           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
         </div>
       </div>
-    </div>
   </section>
 
   <section id="cats">
