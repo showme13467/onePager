@@ -266,4 +266,69 @@ header {
 .media {
   padding-bottom: 20px;
 }
+
+#cats {
+  background-color: #262626;
+}
+
+#catTitle {
+  color: white;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+  display: block;
+}
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+}
+
+#coronahint img {
+  width: 100%;
+  height: 100%;
+}
+
+#coronahint1 {
+  padding-bottom: 10px;
+}
+
+#coronahint2 {
+  padding-top: 10px;
+}
+
+#coronarow1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid #5a5a5a;
+}
+
+#coronarow2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  background-color: #343a40;
+}
+
+.card-header button {
+  color: white;
+}
+
+#footer {
+  color: white;
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
